@@ -7,7 +7,7 @@ Para inicializar a API vocês deverão:
 1. Clonar o repositório
 2. Criar na pasta raiz um arquivo .env, que apresenta os parâmetros de configuração do banco
 
-Exemplo do arquivo .env (trocar os valores das chaves pelos dados do seu banco):
+Exemplo do arquivo .env (trocar os valores das chaves pelos dados dos seus bancos de dados):
 ```
 PG_HOST = localhost
 PG_PORT = 5432
@@ -15,6 +15,8 @@ PG_USERNAME = postgres
 PG_PASSWORD = postgres
 PG_DATABASE = teste
 API_PORT = 3000
+REDIS_HOST="localhost"
+REDIS_PORT="6379"
 ```
 
 3. ```npm i```
